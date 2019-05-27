@@ -1,1 +1,1 @@
-# detet_traffic_light
+# detect_traffic_light
