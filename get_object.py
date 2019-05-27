@@ -58,7 +58,7 @@ def get_color_region(frame_bgr, frame_hsv, color="RYG"):
     # colorUpper = np.array([180, 255, 255], dtype=np.uint8)
     try:
         redLower01 = np.array([0, 43, 46], dtype=np.uint8)  # 部分红 和橙黄绿
-        redUpper01 = np.array([100, 255, 255], dtype=np.uint8)
+        redUpper01 = np.array([124, 255, 255], dtype=np.uint8)
         red_mask02_and_othersLower = np.array([156, 43, 46], dtype=np.uint8)   # 部分红
         red_mask02_and_othersUpper = np.array([180, 255, 255], dtype=np.uint8)
 
