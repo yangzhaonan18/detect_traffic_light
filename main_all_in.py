@@ -29,7 +29,7 @@ def judge_light(trafficLight):
 
 if __name__ == "__main__":
     trafficLight = cv2.imread('C:\\Users\\qcdz-003\\Pictures\\light\\001.jpg', cv2.IMREAD_COLOR)
-    cv2.imshow("trafficLight", trafficLight)
+    # cv2.imshow("trafficLight", trafficLight)
     start = time.time()
     color, direction, conf = judge_light(trafficLight)  # 最终只使用这一行代码。
     end = time.time()
