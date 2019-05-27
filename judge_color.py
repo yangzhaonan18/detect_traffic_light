@@ -10,11 +10,14 @@ def judge_light_color(obj_bgr):
     H = obj_hsv[:, :, 0]
     H = np.squeeze(np.reshape(H, (1, -1)))
 
-    H = H[np.where(H > 0)]
-    H_1 = H[np.where(H < 100)]
-    H_2 = H[np.where(H > 155)]
-    H = np.append(H_1, H_2)
-    H_avg = np.average(H)
+    # print(H)  # 这里要注意红色H值得范围很特别，特别小和特别大都是红色，直接取平均值会出现判断错误的情况。
+    H_value = np.array([])
+    for i in H:
+        if i > 0 and i < 124:
+            H_value = np.append(H_value, i)
+        elif i > 155:  # 将大于155的红色的H值，都看成是1，方便处理
+            H_value = np.append(H_value, 1.0)
+    H_avg = np.average(H_value)
 
     #  根据这个值来判断是什么颜色， RYG
     if H_avg <= 18 or H_avg >= 156:
