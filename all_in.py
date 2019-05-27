@@ -7,9 +7,9 @@ import time
 
 import cv2
 
-from main_2_get_object import get_object
-from main_3_judge_diretcton import judge_direction
-from main_4_judge_color import judge_color
+from get_object import get_object
+from judge_diretcton import judge_direction
+from judge_color import judge_color
 
 
 # judge_light 是一个总函数，同时调用了三个函数:get_object，judge_direction，udge_color

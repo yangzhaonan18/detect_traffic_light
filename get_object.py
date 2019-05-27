@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import time
 import matplotlib.pyplot as plt
-from main_1_test_kmeans import seg_kmeans_color
+from kmeans import seg_kmeans_color
 
 
 def find_contours_max(img_bin_color):

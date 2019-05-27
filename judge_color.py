@@ -1,4 +1,4 @@
-from main_2_get_object import get_object
+from get_object import get_object
 import cv2
 import numpy as np
 
