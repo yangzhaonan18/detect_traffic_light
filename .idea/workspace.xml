@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="560c1347-97f6-442b-ac87-77446779da67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main_0_all_in.py" beforeDir="false" afterPath="$PROJECT_DIR$/all_in.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_1_test_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmeans.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_2_get_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_object.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_3_judge_diretcton.py" beforeDir="false" afterPath="$PROJECT_DIR$/judge_diretcton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_4_judge_color.py" beforeDir="false" afterPath="$PROJECT_DIR$/judge_color.py" afterDir="false" />
-    </list>
+    <list default="true" id="560c1347-97f6-442b-ac87-77446779da67" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +11,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/all_in.py">
+        <entry file="file://$PROJECT_DIR$/main_all_in.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="324">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#64#75#0" expanded="true" />
               </folding>
@@ -62,7 +56,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1803" />
+    <option name="x" value="1973" />
     <option name="y" value="-178" />
     <option name="width" value="1091" />
     <option name="height" value="723" />
@@ -144,12 +138,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558935661626</updated>
-      <workItem from="1558935667552" duration="581000" />
+      <workItem from="1558935667552" duration="707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="581000" />
+    <option name="totallyTimeSpent" value="707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="-178" width="1936" height="1056" extended-state="6" />
@@ -192,10 +186,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/all_in.py">
+    <entry file="file://$PROJECT_DIR$/main_all_in.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="324">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#64#75#0" expanded="true" />
           </folding>
